@@ -1,0 +1,10 @@
+menu "Android Performance"
+
+config ANDROID_PERFORMANCE
+	bool "Android Performance"
+	depends on ARCH_MSM
+	select WQ_POWER_EFFICIENT_DEFAULT
+	help
+	  Support for Perform Android
+
+endmenu
